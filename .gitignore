@@ -1,0 +1,8 @@
+build/
+dist/
+public/
+www/
+node_modules/
+bundle.*
+npm-debug.log
+tags
