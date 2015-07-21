@@ -1,6 +1,6 @@
 {
   "name": "inline-style",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Transform an object into an inline CSS string.",
   "main": "index.js",
   "files": [
