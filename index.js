@@ -21,12 +21,11 @@ function inlineStyle(obj) {
   if (!obj) return null
 
   var props = Object.keys(obj)
-  var styles = []
 
-  props.forEach(function(key) {
+  var styles = props.map(function(key) {
     var prop = dashify(key)
     var line = prop.concat(':').concat(obj[key])
-    styles.push(line)
+    return line
   })
 
   return styles.join(';')
