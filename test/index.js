@@ -21,6 +21,7 @@ test('inlineStyle([obj])', function(t) {
       fontSize: '0.875rem',
       color: '#aaa'
     })
+
     assert.equal(style, 'font-size:0.875rem;color:#aaa')
     assert.end()
   })
