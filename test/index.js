@@ -12,7 +12,7 @@ var inlineStyle = require('../')
 test('inlineStyle([obj])', function(t) {
   t.test('inlineStyle()', function(assert) {
     var style = inlineStyle()
-    assert.equal(style, null)
+    assert.equal(style, '')
     assert.end()
   })
 

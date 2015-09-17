@@ -18,7 +18,7 @@ module.exports = inlineStyle
  */
 
 function inlineStyle(obj) {
-  if (!obj) return null
+  if (!obj) return ''
 
   var props = Object.keys(obj)
 
